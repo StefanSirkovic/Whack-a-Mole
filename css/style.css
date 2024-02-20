@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    user-select:none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#pocetna{
+    height: 830px;
+    width: 1260px;
+    background-color: #8DB600;
+    cursor: url('../img/cekic1.png'), auto;
+}
+.naslov{
+    color:white;
+    margin:0 19%;
+    font-size:4em;
+    letter-spacing: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.bodovi{
+    color:white;
+    margin-top:35px;
+    margin-bottom: 25px;
+    font-size:2.6em;
+    margin-left:34%;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:60%;
+    height: 500px;
+    margin: 0 12%;
+    float:left;
+}
+
+.rupe{
+    width: 150px;
+    background-color: #8B4513;
+    height: 150px;
+    color:White;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #5E2605;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.dugme{
+    display: block;
+    margin:0 46%;
+    margin-top:-35px;
+    width: 200px;
+    height: 40px;
+    background-color:#8B4513;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4em;
+    border-radius: 20%;
+    cursor:pointer;
+}
+.dugme:hover{
+    background-color: #5E2605;
+}
+.slikaKrtice{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:12%;
+    left:10%;
+    visibility: hidden;
+}
+#vreme{
+    color:white;
+    display: block;
+    text-align: right;
+    margin-right: -25%;
+}
+#ime{
+    margin-left:24%;
+    height: 23px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    padding-left:0.4%;
+}
+#lista{
+    float:right;
+    width: 145px;
+    height: auto;
+    max-height: 450px;
+    overflow-y: scroll;
+    margin-right: 1%;
+    color:black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#lista li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    
+}
+li:hover {
+    background-color: #d1d1d1;
+}
+#lista h1{
+    text-align: center;
+}
