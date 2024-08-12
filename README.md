@@ -12,16 +12,14 @@ Welcome to Whack-a-Mole! This is a classic arcade-style game implemented in HTML
 
 ## How to Play
 
-1. Start the game by pressing the "Play" button.
-2. Use the mouse or keyboard controls to hit the moles as they appear.
-3. Score points for each successful hit.
-4. Try to achieve the highest score before the time runs out.
-5. Optionally, compete with friends or other players to see who can get the highest score.
+1. Use the mouse to hit the moles as they appear.
+2. Score points for each successful hit.
+3. Try to achieve the highest score before the time runs out.
+4. Optionally, compete with friends or other players to see who can get the highest score.
 
 ## Technologies Used
 
-- HTML, CSS, and JavaScript for front-end development.
-- Possibly additional libraries or frameworks for enhanced interactivity and visual effects.
+- HTML, CSS, and JavaScript
 - Git and GitHub for version control and collaboration.
 
 ## Contributions
