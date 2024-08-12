@@ -1,0 +1,31 @@
+# Postavljanje line-ending pravila
+* text=auto
+
+# Podesavanje za JavaScript fajlove
+*.js text eol=lf
+
+# Podesavanje za HTML fajlove
+*.html text eol=lf
+
+# Podesavanje za CSS fajlove
+*.css text eol=lf
+
+# Podesavanje za JSON fajlove
+*.json text eol=lf
+
+# Podesavanje za audio fajlove
+*.wav binary
+*.mp3 binary
+
+# Podesavanje za slike
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Ignorisemo sve promene u fajlovima koji počinju sa .env
+.env* merge=ours
+
+# Pravila za Windows specificne fajlove
+*.bat text eol=crlf
+*.cmd text eol=crlf

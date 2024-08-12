@@ -1,0 +1,29 @@
+# Ignorise fajlove koji nastaju prilikom build procesa
+dist/
+build/
+
+# Ignorise privremene fajlove iz tekst editora
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignorise operativni sistem specifične fajlove
+.DS_Store
+Thumbs.db
+
+# Ignorise sve audio fajlove osim onih u direktorijumu sound/
+!sound/
+*.wav
+*.mp3
+
+# Ignorise sve slike osim onih u direktorijumu slikaKrtice/
+!slikaKrtice/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignorise fajlove konfiguracije specifične za razvojne alate
+.vscode/
+.idea/
